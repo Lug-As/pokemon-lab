@@ -1,6 +1,6 @@
 package pokemons;
 
-import attacks.PoisonPowder;
+import moves.PoisonPowder;
 
 public class Weepinbell extends Bellsprout {
     public Weepinbell(String name, int level) {

@@ -1,4 +1,4 @@
-package attacks;
+package moves;
 
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Pokemon;

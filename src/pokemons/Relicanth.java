@@ -1,9 +1,9 @@
 package pokemons;
 
-import attacks.Blizzard;
-import attacks.Harden;
-import attacks.HydroPump;
-import attacks.TakeDown;
+import moves.Blizzard;
+import moves.Harden;
+import moves.HydroPump;
+import moves.TakeDown;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
