@@ -9,8 +9,10 @@ public class Blizzard extends SpecialMove {
 
     @Override
     protected void applyOppEffects(Pokemon pokemon) {
-        Effect effect = (new Effect()).condition(Status.FREEZE).chance(0.1).attack(0.0).turns(-1);
-        pokemon.setCondition(effect);
+        if (!pokemon.hasType(Type.ICE)) {
+            Effect effect = (new Effect()).condition(Status.FREEZE).chance(0.1).attack(0.0).turns(-1);
+            pokemon.addEffect(effect);
+        }
     }
 
     @Override

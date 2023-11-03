@@ -19,6 +19,6 @@ public class Relicanth extends Pokemon {
     }
 
     public Relicanth() {
-        this("Ноунейм", 1);
+        this("Безымянный Реликант", 1);
     }
 }
