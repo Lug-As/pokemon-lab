@@ -8,8 +8,8 @@ public class Main {
         System.out.println("Hello pokemons!");
 
         Battle battle = new Battle();
-        Pokemon p1 = new Relicanth();
-        Pokemon p2 = new Victreebel("Селеменчук", 1);
+        Pokemon p1 = new Relicanth("Чужой", 1);
+        Pokemon p2 = new Victreebel("Хищник", 1);
         battle.addAlly(p1);
         battle.addFoe(p2);
         battle.go();
