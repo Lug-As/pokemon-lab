@@ -12,6 +12,7 @@ public class Rest extends StatusMove {
         pokemon.restore();
         Effect effect = (new Effect()).condition(Status.SLEEP).attack(0.0).turns(2);
         pokemon.setCondition(effect);
+        pokemon.setMod(Stat.HP, (int) (pokemon.getHP() - pokemon.getStat(Stat.HP)));
     }
 
     @Override

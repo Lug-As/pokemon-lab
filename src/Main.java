@@ -1,5 +1,5 @@
 import pokemons.Relicanth;
-import pokemons.Weepinbell;
+import pokemons.Victreebel;
 import ru.ifmo.se.pokemon.Battle;
 import ru.ifmo.se.pokemon.Pokemon;
 
@@ -9,7 +9,7 @@ public class Main {
 
         Battle battle = new Battle();
         Pokemon p1 = new Relicanth();
-        Pokemon p2 = new Weepinbell("Селеменчук", 1);
+        Pokemon p2 = new Victreebel("Селеменчук", 1);
         battle.addAlly(p1);
         battle.addFoe(p2);
         battle.go();
