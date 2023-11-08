@@ -1,5 +1,7 @@
-import pokemons.Relicanth;
-import pokemons.Victreebel;
+package laba;
+
+import laba.pokemons.Relicanth;
+import laba.pokemons.Victreebel;
 import ru.ifmo.se.pokemon.Battle;
 import ru.ifmo.se.pokemon.Pokemon;
 

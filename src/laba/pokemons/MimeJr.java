@@ -1,8 +1,8 @@
-package pokemons;
+package laba.pokemons;
 
-import moves.IcyWind;
-import moves.Psybeam;
-import moves.Thunder;
+import laba.moves.IcyWind;
+import laba.moves.Psybeam;
+import laba.moves.Thunder;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

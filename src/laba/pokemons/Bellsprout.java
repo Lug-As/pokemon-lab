@@ -1,7 +1,7 @@
-package pokemons;
+package laba.pokemons;
 
-import moves.RazorLeaf;
-import moves.SleepPowder;
+import laba.moves.RazorLeaf;
+import laba.moves.SleepPowder;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

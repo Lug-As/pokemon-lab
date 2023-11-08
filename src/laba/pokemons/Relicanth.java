@@ -1,9 +1,9 @@
-package pokemons;
+package laba.pokemons;
 
-import moves.Blizzard;
-import moves.Harden;
-import moves.HydroPump;
-import moves.TakeDown;
+import laba.moves.Blizzard;
+import laba.moves.Harden;
+import laba.moves.HydroPump;
+import laba.moves.TakeDown;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

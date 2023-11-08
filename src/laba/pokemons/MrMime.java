@@ -1,6 +1,6 @@
-package pokemons;
+package laba.pokemons;
 
-import moves.MagicalLeaf;
+import laba.moves.MagicalLeaf;
 
 public class MrMime extends MimeJr {
     public MrMime(String name, int level) {

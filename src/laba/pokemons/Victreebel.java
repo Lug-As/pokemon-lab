@@ -1,6 +1,6 @@
-package pokemons;
+package laba.pokemons;
 
-import moves.Rest;
+import laba.moves.Rest;
 
 public class Victreebel extends Weepinbell {
     public Victreebel(String name, int level) {

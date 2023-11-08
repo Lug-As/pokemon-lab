@@ -1,4 +1,4 @@
-package moves;
+package laba.moves;
 
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;

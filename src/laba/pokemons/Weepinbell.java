@@ -1,6 +1,6 @@
-package pokemons;
+package laba.pokemons;
 
-import moves.PoisonPowder;
+import laba.moves.PoisonPowder;
 
 public class Weepinbell extends Bellsprout {
     public Weepinbell(String name, int level) {
